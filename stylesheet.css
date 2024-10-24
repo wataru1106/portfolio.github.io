@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.top-container{
+position: relative;
+padding: 0%;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.top-container .name{
+    position: absolute;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: clip
+}
+
+.top-container .who{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    margin-top: 100px;
+    transform: translateX(-50%);
+    overflow: clip
+}
+
+
+.top-container img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.middle-container h2{
+    color: #82CFCA;
+}
+.middle-container h4{
+    padding: 0px;
+    margin: 0px;
+}
+.middle-container p{
+    padding: 0px;
+    margin: 0px;
+}
+.middle-container img {
+    margin-top: 50px;
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.middle-container a{
+    padding-bottom: 100px; 
+    display: inline-block;
+}
